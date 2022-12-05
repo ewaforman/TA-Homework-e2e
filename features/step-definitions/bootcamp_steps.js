@@ -24,7 +24,7 @@ When("I open Today's Best Deals tab", async () => {
 });
 
 When("I click on the Internet shop logo", async () => {
-    await $('//*[@id="app"]/header/div[1]/div[1]/div[1]/div[2]/a/img').click();
+    await $('[alt="Newegg"]').click();
 });
 
 Then("I check that the main page opened", async () => {
